@@ -16,16 +16,31 @@
 body {
     margin: 0;
   }
-.header {
+  
+  main,
+  header {
+    padding: 3px;
+
+  }
+  
+  header {
     position: sticky;
     top: 0;
+    background: #ffffff;
+    z-index:2;
+
   }
   
   main {
     min-height: 1000vh;
-    line-height: 2;
+    background: #ffffff;
+    position:relative;
+    z-index:1;
+    
   }
-
-  .img{
-      size: 15px;
+  .load{
+      size: 50%;
+  }
+  .side{
+      max-height: fit-content;
   }
