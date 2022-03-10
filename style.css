@@ -1,0 +1,31 @@
+.header{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 4px, rgba(0, 0, 0, 0.23) 0px 3px 4px;
+    background-color: white;
+}
+.bebas{
+    font-family: "bebas Neue";
+    letter-spacing: .1cm;
+}
+.font-2{
+    font-size: 2rem;
+}
+.font-5{
+    font-size: 3rem;
+}
+
+body {
+    margin: 0;
+  }
+.header {
+    position: sticky;
+    top: 0;
+  }
+  
+  main {
+    min-height: 1000vh;
+    line-height: 2;
+  }
+
+  .img{
+      size: 15px;
+  }
