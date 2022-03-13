@@ -46,7 +46,9 @@ body {
     height: 100vh
   }
 
-
+.bold{
+  font-weight: 500;
+}
 
   .bn632-hover {
     width: 160px;
